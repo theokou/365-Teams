@@ -11,7 +11,7 @@ Move-CsUser -UserList "C:\path location\users.txt" -Target "sipfed.online.lync.c
 
 
 #move users to SFB Server
-Move-CsUser -UserList "C:\Users\stzouganakis\Desktop\users.txt" -Target "rhea.varioclean.local" -HostedMigrationOverrideUrl "https://admin0e.online.lync.com/HostedMigration/hostedmigrationService.svc" -Credential $cred
+Move-CsUser -UserList "C:\Users\user\Desktop\users.txt" -Target "rhea.varioclean.local" -HostedMigrationOverrideUrl "https://admin0e.online.lync.com/HostedMigration/hostedmigrationService.svc" -Credential $cred
 
 
 #Switch Tenant to Teams Only
